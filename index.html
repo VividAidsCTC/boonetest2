@@ -105,7 +105,7 @@
       window.addEventListener("DOMContentLoaded", function () {
         var audio = document.getElementById("bg-music");
         if (audio) {
-          audio.volume = 0.5; // Set a reasonable default volume
+          audio.volume = 1.0; // Set an unreasonable default volume
           audio.play().catch(function (e) {
             // Autoplay might be blocked; optionally show a play button if needed
             console.log("Autoplay was prevented:", e);
